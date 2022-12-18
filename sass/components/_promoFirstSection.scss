@@ -1,0 +1,64 @@
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.hero__words{
+    width: 695px;
+   
+  
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    /* or 136% */
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin: 0 auto 30px;
+    
+    color: #FFFFFF;}
+    
+    .hero__btn{
+
+        font-family: inherit;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        /* identical to box height, or 188% */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        cursor: pointer;
+        border: none;
+        padding: 10px 20px;
+        color: #FFFFFF;
+        background: #2196F3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        
+        }
+        .hero__btn-position{
+
+        margin: 0 auto ;
+        }
+
+    .hero{
+
+        padding-top: 200px;
+        padding-bottom: 200px;
+     
+   background-color: #C4C4C4;
+   background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),url(../img/img2/Img-17.png) ;
+   
+
+
+
+   
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+             }
