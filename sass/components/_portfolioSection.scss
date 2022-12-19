@@ -23,7 +23,7 @@
         
     }
 }
-.opport-list__text{
+.opportunity__text{
     position: relative;
     display: flex;
     justify-content: center;
@@ -47,7 +47,7 @@
     
     
  }
-.opport-list{
+.opportunity-list{
     width: 370px;
    
   
@@ -64,11 +64,11 @@
 
 
 
-.opport-list__link{
+.opportunity__link{
     display: block;
     transition: box-shadow 250ms cubic-bezier(0, 0, 1, 1) ;
 }
-.opport-list__link:hover {
+.opportunity__link:hover {
    
     
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -91,19 +91,19 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
 
 
 
-.opport-list__link:hover .opport-list__text-styles{
+.opportunity__link:hover .opportunity__text-styles{
    
 
     opacity: 1;
  }
- .opport-list__link:hover .opport-list__text::before{
+ .opportunity__link:hover .opportunity__text::before{
  opacity: 1;
  
     
 
  }
 
-.opport-list__text-styles{
+.opportunity__text-styles{
     position: absolute;
     font-style: normal;
     font-weight: 400;
@@ -121,20 +121,20 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
 
 }
 
-.opport-list__img{
+.opportunity__img{
     border: 1px solid #ececec;
     padding: 20px 24px;
     border-top: none;
 }
-.portfolio-main__opport-list{
+.opportunity{
     display: flex;
-   
     flex-wrap: wrap;
     padding-left: 0;
     gap: 30px;
     
 }
-.opport-list__img-header{
+
+.opportunity__img-header{
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -144,7 +144,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
     margin-bottom: 4px;
    
     color: #212121;}
-    .opport-list__img-prop{
+    .opportunity__img-prop{
         font-style: normal;
        
         font-size: 16px;

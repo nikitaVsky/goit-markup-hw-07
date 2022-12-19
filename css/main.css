@@ -582,13 +582,13 @@ img {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.opportunity__text {
+.opport-list__text {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.opportunity__text::before {
+.opport-list__text::before {
   display: inline-block;
   position: absolute;
   content: "";
@@ -628,15 +628,15 @@ img {
   height: 100%;
 }
 
-.opportunity__link:hover .opportunity__text-styles {
+.opport-list__link:hover .opport-list__text-styles {
   opacity: 1;
 }
 
-.opportunity__link:hover .opportunity__text::before {
+.opport-list__link:hover .opport-list__text::before {
   opacity: 1;
 }
 
-.opportunity__text-styles {
+.opport-list__text-styles {
   position: absolute;
   font-style: normal;
   font-weight: 400;
@@ -651,20 +651,20 @@ img {
   transition: opacity 250ms cubic-bezier(0, 0, 1, 1);
 }
 
-.opportunity__img {
+.opport-list__img {
   border: 1px solid #ececec;
   padding: 20px 24px;
   border-top: none;
 }
 
-.opportunity {
+.portfolio-main__opport-list {
   display: flex;
   flex-wrap: wrap;
   padding-left: 0;
   gap: 30px;
 }
 
-.opportunity__img-header {
+.opport-list__img-header {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -675,7 +675,7 @@ img {
   color: #212121;
 }
 
-.opportunity__img-prop {
+.opport-list__img-prop {
   font-style: normal;
   font-size: 16px;
   line-height: 1.88;
@@ -945,4 +945,8 @@ label.window-form__modal-checkbox-label {
   transform: translateY(-50%);
   left: 12px;
   transition: fill 500ms linear;
+}
+
+body {
+  background-color: aqua;
 }/*# sourceMappingURL=main.css.map */
